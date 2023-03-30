@@ -54,13 +54,8 @@ public class TC04_HoverCategories {
     {
         SoftAssert chosenCat=new SoftAssert();
         chosenCat.assertEquals(Hooks.driver.getCurrentUrl(),expectedURL.toLowerCase().trim());
-       // chosenCat.assertEquals(Hook.,expectedURL.toLowerCase().trim());
         chosenCat.assertAll();
 
-//        String title=homePage.productCard().getText();
-//        chosenCat.assertEquals(title,expectedURL.toLowerCase().trim());
-//        String titlespace=expectedURL.pagetitle().get().trim();
-//        chosenCat.assertEquals(title,titlespace);
 
     }
 
