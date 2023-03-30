@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="53.888">
+    <testcase classname="Register_ user could registration to the system with valid data" name="valid Registration" time="18.772">
+        <system-out><![CDATA[Given navigate to url website...............................................passed
+And Go to register page.....................................................passed
+When Enter valid Data.......................................................passed
+And click on Register button................................................passed
+Then verify that account created successfully...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login_user login to the system" name="Login With valid data" time="16.397">
+        <system-out><![CDATA[Given navigate to url.......................................................passed
+And Go to login page........................................................passed
+When Enter valid email and valid password...................................passed
+And click on login button...................................................passed
+Then verify the user login successfully.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login_user login to the system" name="login with invalid email and valid password" time="9.251">
+        <system-out><![CDATA[Given navigate to url.......................................................passed
+And Go to login page........................................................passed
+When Enter invalid email and valid password.................................passed
+And click on login button...................................................passed
+Then verify the user don't login successfully...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Currencies_ verify euro symbol is show on 4 products in home page" name="Currencies Feature" time="8.54">
+        <system-out><![CDATA[Given navigate to url website...............................................passed
+When change current currency to EURO........................................passed
+Then verify Euro Symbol is shown on the products............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
